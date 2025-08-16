@@ -1,38 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetCo-The Supreme App for Pets</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Excel Project: Interest Rate Calculator & More</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+    <header>
+        <h1>Boikano's Financial Calculator</h1>
+        <nav class="navbar">
+            <div class="nav-brand">Excel Project</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#increasing-annuities">Increasing Annuities Calculator</a></li>
+                <li><a href="#interest-rate-convertor">Interest Rate Converter</a></li>
+                <li><a href="#annuity-calculator">Annuity Calculator</a></li>
+                <li><a href="#currency-conversion">Currency Conversion</a></li>
+                <li><a href="#stock-analysis">Stock Analysis</a></li>
+                <li><a href="#loan-calculator">Loan Calculator</a></li>
+                <li><a href="#single-investment">Single Investments Calculator</a></li>
+                <li><a href="#tax-tracker">Tax Tracker</a></li>
+                <li><a href="#monte-carlo-simulation">Monte Carlo Simulation</a></li>
             </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
+        </nav>
+    </header>
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Welcome to my comprehensive Excel project website! This platform showcases a collection of powerful
+                financial calculators and analysis tools, all built within Excel. Whether you're planning for
+                retirement, analyzing investments, or managing loans, these tools provide accurate calculations and
+                insights to support your financial decisions.</p>
+
+            <div class="key-points">
+                <h4>🎯 What You'll Find Here:</h4>
+                <div class="benefits">
+                    <div class="benefit-item">📈 Investment Planning Tools</div>
+                    <div class="benefit-item">💰 Loan & Mortgage Calculators</div>
+                    <div class="benefit-item">📊 Stock Market Analysis</div>
+                    <div class="benefit-item">💱 Currency Conversion</div>
+                    <div class="benefit-item">🎲 Risk Assessment Models</div>
+                    <div class="benefit-item">🧾 Tax Management Tools</div>
+                </div>
             </div>
-          </div>
-        </div>
-      </header>
+
+            <!-- <div class="videos">
+                <div class="video-spot">
+                    <h3>Project Overview Video</h3>
+                    <video controls width="320" height="180" poster="">
+                        <source src="video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-spot">
+                    <h3>How to Use the Calculators</h3>
+                    <video controls width="320" height="180" poster="">
+                        <source src="video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div> -->
+        </section>
+
+        <section id="increasing-annuities">
+            <h2>Increasing Annuities Calculator</h2>
+            <p>This advanced calculator helps you analyze investments where payments increase over time at a constant
+                growth rate. Perfect for understanding how inflation-adjusted retirement contributions or escalating
+                income streams will grow.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>🔢 Key Calculations</h4>
+                    <p>Future Value, Present Value, and Payment calculations for growing annuities</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📈 Growth Modeling</h4>
+                    <p>Accounts for constant growth rates in payment amounts over time</p>
+                </div>
+                <div class="feature-box">
+                    <h4>🎯 Applications</h4>
+                    <p>Retirement planning, salary escalation analysis, and inflation-adjusted investments</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>💡 Why Use This Tool?</h4>
+                <ul>
+                    <li><strong>Realistic Planning:</strong> Accounts for the fact that your contributions or income may
+                        increase over time</li>
+                    <li><strong>Inflation Protection:</strong> Helps plan for the decreasing purchasing power of money
+                    </li>
+                    <li><strong>Career Planning:</strong> Model salary growth and retirement contributions throughout
+                        your career</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="interest-rate-convertor">
+            <h2>Interest Rate Converter</h2>
+            <p>Easily convert between different compounding periods to make accurate comparisons between financial
+                products. Essential for understanding the true cost of loans or returns on investments.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>🔄 Conversion Types</h4>
+                    <p>Annual, Semi-annual, Quarterly, Monthly, and Daily compounding rates</p>
+                </div>
+                <div class="feature-box">
+                    <h4>⚖️ Fair Comparisons</h4>
+                    <p>Compare products with different compounding frequencies accurately</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📊 Effective Rates</h4>
+                    <p>Calculate the true effective annual rate for any compounding period</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>🎯 Real-World Applications:</h4>
+                <ul>
+                    <li><strong>Loan Shopping:</strong> Compare loans with different compounding schedules</li>
+                    <li><strong>Investment Analysis:</strong> Understand the true return on investments</li>
+                    <li><strong>Credit Card Analysis:</strong> Convert APR to effective rates for different payment
+                        schedules</li>
+                    <li><strong>Savings Optimization:</strong> Find the best savings account based on true effective
+                        rates</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="annuity-calculator">
+            <h2>Annuity Calculator</h2>
+            <p>Calculate present and future values for both ordinary annuities and annuities due. This versatile tool
+                supports various financial planning scenarios from loan payments to retirement income planning.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>📅 Annuity Types</h4>
+                    <p>Ordinary annuities (end-of-period) and annuities due (beginning-of-period)</p>
+                </div>
+                <div class="feature-box">
+                    <h4>💰 Value Calculations</h4>
+                    <p>Present value, future value, and payment amount calculations</p>
+                </div>
+                <div class="feature-box">
+                    <h4>🎯 Flexible Terms</h4>
+                    <p>Support for various payment frequencies and interest compounding periods</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>💼 Perfect For:</h4>
+                <ul>
+                    <li><strong>Retirement Planning:</strong> Calculate how much to save monthly for retirement goals
+                    </li>
+                    <li><strong>Loan Analysis:</strong> Determine loan payments and total interest costs</li>
+                    <li><strong>Investment Planning:</strong> Evaluate regular investment contributions</li>
+                    <li><strong>Insurance Planning:</strong> Analyze annuity insurance products</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="currency-conversion">
+            <h2>Currency Conversion</h2>
+            <p>Specialized currency converter focused on USD and South African Rand (ZAR) conversions. Designed for
+                accurate, up-to-date exchange rate calculations between these two currencies only.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>💱 Bi-directional</h4>
+                    <p>Convert from USD to ZAR and ZAR to USD with real-time rates</p>
+                </div>
+                <div class="feature-box">
+                    <h4>🎯 Focused Accuracy</h4>
+                    <p>Specialized for USD/ZAR pair ensures maximum accuracy</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📊 Historical Tracking</h4>
+                    <p>Track exchange rate trends and historical data</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>🌍 Ideal For:</h4>
+                <ul>
+                    <li><strong>International Business:</strong> US-South Africa trade calculations</li>
+                    <li><strong>Travel Planning:</strong> Budget planning for travel between US and South Africa</li>
+                    <li><strong>Investment Analysis:</strong> Evaluate international investment returns</li>
+                    <li><strong>Remittances:</strong> Calculate money transfer amounts and fees</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="stock-analysis">
+            <h2>Stock Analysis</h2>
+            <p>Comprehensive stock analysis tool featuring data from 32 major companies including Tesla, Alibaba, and
+                other market leaders. Understand key financial metrics and make informed investment decisions.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>📊 Key Metrics</h4>
+                    <p>P/E Ratio, Beta, Market Cap, Volume, and more for each stock</p>
+                </div>
+                <div class="feature-box">
+                    <h4>🏢 32 Companies</h4>
+                    <p>Diverse portfolio of major global companies across sectors</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📈 Analysis Tools</h4>
+                    <p>Compare stocks, identify trends, and assess investment opportunities</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>📚 Understanding the Metrics:</h4>
+                <ul>
+                    <li><strong>P/E Ratio (Price-to-Earnings):</strong> Measures if a stock is over or undervalued
+                        relative to its earnings. Lower P/E may indicate undervaluation.</li>
+                    <li><strong>Beta:</strong> Measures stock volatility compared to the market. Beta > 1 means more
+                        volatile than market, Beta < 1 means less volatile.</li>
+                    <li><strong>Market Cap:</strong> Total value of all company shares. Indicates company size (Large,
+                        Mid, Small cap).</li>
+                    <li><strong>Volume:</strong> Number of shares traded. High volume indicates strong investor interest
+                        and liquidity.</li>
+                </ul>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-item">🎯 Investment Screening</div>
+                <div class="benefit-item">📊 Risk Assessment</div>
+                <div class="benefit-item">💰 Value Identification</div>
+                <div class="benefit-item">📈 Trend Analysis</div>
+            </div>
+        </section>
+
+        <section id="loan-calculator">
+            <h2>Loan Calculator & Amortization Table</h2>
+            <p>Complete loan analysis tool that calculates payments and generates detailed amortization schedules. See
+                exactly how much of each payment goes toward principal and interest over the life of your loan.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>💰 Payment Calculations</h4>
+                    <p>Monthly payment, total interest, and payoff amounts</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📋 Amortization Table</h4>
+                    <p>Detailed payment-by-payment breakdown showing principal and interest</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📊 Visual Analysis</h4>
+                    <p>Charts showing payment composition and remaining balance over time</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>🏠 Perfect For:</h4>
+                <ul>
+                    <li><strong>Mortgage Planning:</strong> Understand your home loan payments and build equity timeline
+                    </li>
+                    <li><strong>Auto Loans:</strong> Compare different loan terms and interest rates</li>
+                    <li><strong>Personal Loans:</strong> Analyze debt consolidation or major purchase financing</li>
+                    <li><strong>Refinancing Decisions:</strong> Compare current loan with refinancing options</li>
+                </ul>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-item">💡 Payment Optimization</div>
+                <div class="benefit-item">📈 Equity Building Timeline</div>
+                <div class="benefit-item">💰 Interest Savings Strategies</div>
+                <div class="benefit-item">📊 Loan Comparison Tools</div>
+            </div>
+        </section>
+
+        <section id="single-investment">
+            <h2>Single Investments Calculator</h2>
+            <p>Calculate the future value of one-time lump-sum investments. Perfect for analyzing windfalls, bonuses,
+                inheritances, or any large single investment opportunity.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>💎 Lump Sum Focus</h4>
+                    <p>Specialized for single, large investment calculations</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📈 Compound Growth</h4>
+                    <p>Shows the power of compound interest over time</p>
+                </div>
+                <div class="feature-box">
+                    <h4>⏰ Time Value</h4>
+                    <p>Demonstrates how time affects investment growth</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>💰 Ideal Scenarios:</h4>
+                <ul>
+                    <li><strong>Windfall Investing:</strong> Tax refunds, bonuses, or inheritance planning</li>
+                    <li><strong>Retirement Rollover:</strong> 401(k) for Americans to IRA transfers</li>
+                    <li><strong>College Savings:</strong> Large contributions to education funds</li>
+                    <li><strong>Investment Comparison:</strong> Compare different investment vehicles for lump sums</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="tax-tracker">
+            <h2>Tax Tracker</h2>
+            <p>Comprehensive tax management tool to help you stay organized throughout the tax year. Track income,
+                deductions, payments, and estimate your tax liability to avoid surprises.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>📊 Income Tracking</h4>
+                    <p>Monitor all income sources throughout the year</p>
+                </div>
+                <div class="feature-box">
+                    <h4>💰 Deduction Management</h4>
+                    <p>Track deductible expenses and maximize tax savings</p>
+                </div>
+                <div class="feature-box">
+                    <h4>🎯 Tax Estimation</h4>
+                    <p>Real-time tax liability calculations and payment planning</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>📋 Key Features:</h4>
+                <ul>
+                    <li><strong>Quarterly Tracking:</strong> Monitor estimated tax payments and avoid penalties</li>
+                    <li><strong>Deduction Optimization:</strong> Identify opportunities to maximize tax savings</li>
+                    <li><strong>Refund Planning:</strong> Plan for tax refunds or additional payments needed</li>
+                    <li><strong>Year-End Planning:</strong> Make strategic decisions before December 31st</li>
+                </ul>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-item">⏰ Year-Round Organization</div>
+                <div class="benefit-item">💰 Penalty Avoidance</div>
+                <div class="benefit-item">📊 Strategic Planning</div>
+                <div class="benefit-item">🎯 Accurate Estimates</div>
+            </div>
+        </section>
+
+        <section id="monte-carlo-simulation">
+            <h2>Monte Carlo Retirement Simulation</h2>
+            <p>Advanced retirement planning tool that uses Monte Carlo simulation with 1,000 different scenarios to
+                project your retirement portfolio's future value. This powerful tool helps you understand the range of
+                possible outcomes and plan for various market conditions.</p>
+
+            <div class="features">
+                <div class="feature-box">
+                    <h4>🎲 1,000 Scenarios</h4>
+                    <p>Simulates 1,000 different market conditions and outcomes</p>
+                </div>
+                <div class="feature-box">
+                    <h4>📊 Statistical Analysis</h4>
+                    <p>Provides probability distributions and confidence intervals</p>
+                </div>
+                <div class="feature-box">
+                    <h4>⏰ Long-term Projection</h4>
+                    <p>Projects outcomes up to age/year 55 and beyond</p>
+                </div>
+            </div>
+
+            <div class="key-points">
+                <h4>🎯 What Monte Carlo Analysis Provides:</h4>
+                <ul>
+                    <li><strong>Risk Assessment:</strong> Understand the probability of reaching your retirement goals
+                    </li>
+                    <li><strong>Market Variability:</strong> Account for market ups, downs, and volatility over time
+                    </li>
+                    <li><strong>Confidence Levels:</strong> See best-case, worst-case, and most likely scenarios</li>
+                    <li><strong>Strategic Planning:</strong> Adjust savings rates and investment allocations based on
+                        outcomes</li>
+                </ul>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-item">📈 Probability-Based Planning</div>
+                <div class="benefit-item">🎯 Risk-Adjusted Strategies</div>
+                <div class="benefit-item">📊 Scenario Analysis</div>
+                <div class="benefit-item">💡 Data-Driven Decisions</div>
+            </div>
+
+            <p><em>⚠️ Important Note: This simulation is designed for educational and planning purposes. It does not
+                    guarantee future investment results and should be used as one tool among many in your retirement
+                    planning strategy.</em></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Boikano Ranape. All rights reserved.</p>
+    </footer>
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+    </script>
 </body>
+
 </html>
